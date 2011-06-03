@@ -7,3 +7,4 @@ pager = LESS='FSRX' less
 [extensions]
 rebase =
 pager =
+color =
