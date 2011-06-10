@@ -83,3 +83,17 @@ set statusline=\ %F%m%r%h\ %w\ \ \Line:\ %l/%L:%c
 
 " Set 7 lines to the curors - when moving vertical..
 set so=7
+
+" load pathogen
+call pathogen#runtime_append_all_bundles()
+
+if has('gui_running')
+  " solarized colorscheme
+  set background=dark
+  let g:solarized_termcolors=256
+  colorscheme solarized
+else
+endif
+
+" NERD Tree
+map <leader>tt :NERDTreeToggle<cr>
