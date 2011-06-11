@@ -92,6 +92,10 @@ if has('gui_running')
   set background=dark
   let g:solarized_termcolors=256
   colorscheme solarized
+  " Ctrl + C, Ctrl + V
+  map <C-v> "+gP
+  map <C-c> "+y
+  map <C-x> "+x
 else
 endif
 
