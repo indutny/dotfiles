@@ -1,5 +1,13 @@
+" load pathogen
+call pathogen#runtime_append_all_bundles()
+
+" syntax
+filetype off
 filetype plugin indent on
 syntax on
+
+" JSON files are javascript
+autocmd BufNewFile,BufRead *.json set ft=javascript
 
 "Y U NO TABS OR SPACES
 set tabstop=2
@@ -83,9 +91,6 @@ set statusline=\ %F%m%r%h\ %w\ \ \Line:\ %l/%L:%c
 
 " Set 7 lines to the curors - when moving vertical..
 set so=7
-
-" load pathogen
-call pathogen#runtime_append_all_bundles()
 
 if has('gui_running')
   " solarized colorscheme
