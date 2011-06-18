@@ -1,0 +1,18 @@
+[submodule ".vim/bundle/javascript.vim"]
+	path = .vim/bundle/javascript.vim
+	url = git://github.com/serverhorror/javascript.vim.git
+[submodule ".vim/bundle/mustache.vim"]
+	path = .vim/bundle/mustache.vim
+	url = git://github.com/juvenn/mustache.vim.git
+[submodule ".vim/bundle/nerdtree"]
+	path = .vim/bundle/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
+[submodule ".vim/bundle/vim-coffee-script"]
+	path = .vim/bundle/vim-coffee-script
+	url = git://github.com/kchmck/vim-coffee-script.git
+[submodule ".vim/bundle/vim-javascript"]
+	path = .vim/bundle/vim-javascript
+	url = git://github.com/pangloss/vim-javascript.git
+[submodule ".vim/bundle/vim-web-indent"]
+	path = .vim/bundle/vim-web-indent
+	url = git://github.com/garbas/vim-web-indent.git

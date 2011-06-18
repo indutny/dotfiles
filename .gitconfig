@@ -1,6 +1,8 @@
 [user]
   name = Fedor Indutny
   email = fedor.indutny@gmail.com
+[core]
+  editor = vim
 [color]
   ui = true
 [color "branch"]
