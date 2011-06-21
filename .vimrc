@@ -64,6 +64,7 @@ let mapleader = ","
 let g:mapleader = ","
 
 " Various key bindings for fast actions
+map <leader><tab> <c-w>w
 map <leader>w :w!<cr>
 map <leader>q :q
 
@@ -105,4 +106,4 @@ else
 endif
 
 " NERD Tree
-map <leader>tt :NERDTreeToggle<cr>
+map <leader>n :NERDTreeToggle<cr>
