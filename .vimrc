@@ -76,6 +76,7 @@ map <leader>tp :tabprev<cr>
 map <leader>te :tabe
 map <leader>tr :tabrewind<cr>
 map <leader>tl :tablast<cr>
+map <leader>tm :tabmove 
 
 " When vimrc is edited, reload it
 autocmd! bufwritepost vimrc source ~/.vim_runtime/vimrc
