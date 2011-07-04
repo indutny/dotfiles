@@ -28,3 +28,6 @@
 [submodule ".vim/bundle/vim-stylus"]
 	path = .vim/bundle/vim-stylus
 	url = git://github.com/vim-scripts/vim-stylus.git
+[submodule ".vim/bundle/bufexplorer"]
+	path = .vim/bundle/bufexplorer
+	url = git://github.com/markabe/bufexplorer.git

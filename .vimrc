@@ -64,6 +64,7 @@ let mapleader = ","
 let g:mapleader = ","
 
 " Various key bindings for fast actions
+" map <leader><leader> <leader>
 map <leader><tab> <c-w>w
 map <leader>w :w!<cr>
 map <leader>q :q
@@ -108,3 +109,45 @@ endif
 
 " NERD Tree
 map <leader>n :NERDTreeToggle<cr>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Spell checking
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"Pressing ,ss will toggle and untoggle spell checking
+map <leader>ss :setlocal spell!<cr>
+
+"Shortcuts using <leader>
+map <leader>sn ]s
+map <leader>sp [s
+map <leader>sa zg
+map <leader>s? z=
+
+" Javascript section
+
+au FileType javascript call JavaScriptFold()
+au FileType javascript setl fen
+au FileType javascript setl nocindent
+
+au FileType javascript imap <c-t> AJS.log();<esc>hi
+au FileType javascript imap <c-a> alert();<esc>hi
+
+au FileType javascript inoremap <buffer> $r return
+
+function! JavaScriptFold()
+  setl foldmethod=syntax
+  setl foldlevelstart=1
+  syn region foldBraces start=/{/ end=/}/ transparent fold keepend extend
+
+  function! FoldText()
+    return substitute(getline(v:foldstart), '{.*', '{...}', '')
+  endfunction
+  setl foldtext=FoldText()
+endfunction
+
+" Remove the Windows ^M - when the encodings gets messed up
+noremap <Leader>m mmHmt:%s/<C-V><cr>//ge<cr>'tzt'm
+
+" BufExplorer
+let g:bufExplorerDefaultHelp=0
+let g:bufExplorerShowRelativePath=1
+map <leader>o :BufExplorer<cr>
