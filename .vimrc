@@ -151,3 +151,7 @@ noremap <Leader>m mmHmt:%s/<C-V><cr>//ge<cr>'tzt'm
 let g:bufExplorerDefaultHelp=0
 let g:bufExplorerShowRelativePath=1
 map <leader>o :BufExplorer<cr>
+
+" XClip
+vmap <leader>y :!xclip -f -sel clip<CR>
+map <leader>p :-1r !xclip -o -sel clip<CR>
