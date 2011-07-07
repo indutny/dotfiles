@@ -65,7 +65,9 @@ let g:mapleader = ","
 
 " Various key bindings for fast actions
 " map <leader><leader> <leader>
-map <leader><tab> <c-w>w
+map <tab> <c-w>w
+map <leader><tab> :tabnext<cr>
+map <leader><s-tab> :tabprev<cr>
 map <leader>w :w!<cr>
 map <leader>q :q
 
