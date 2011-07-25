@@ -124,6 +124,11 @@ map <leader>sp [s
 map <leader>sa zg
 map <leader>s? z=
 
+" Highlight 81 column
+set colorcolumn=81
+:highlight ColorColumn ctermbg=lightblue guibg=lightblue
+
+
 " Javascript section
 
 au FileType javascript call JavaScriptFold()
