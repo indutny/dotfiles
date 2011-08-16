@@ -92,7 +92,7 @@ set undofile
 set laststatus=2
 "
 " Format the statusline
-set statusline=\ %F%m%r%h\ %w\ \ \Line:\ %l/%L:%c
+set statusline=\ %F%m%r%h\ %w\ %{fugitive#statusline()}\ \Line:\ %l/%L:%c
 
 " Set 7 lines to the curors - when moving vertical..
 set so=7

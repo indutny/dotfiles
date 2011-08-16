@@ -21,6 +21,8 @@
   untracked = cyan
 [core]
   whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
+[rerere]
+  enabled = true
 [alias]
   st = status
   ci = commit

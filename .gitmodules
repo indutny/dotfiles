@@ -31,3 +31,6 @@
 [submodule ".vim/bundle/bufexplorer"]
 	path = .vim/bundle/bufexplorer
 	url = git://github.com/markabe/bufexplorer.git
+[submodule ".vim/bundle/cocoa.vim"]
+	path = .vim/bundle/cocoa.vim
+	url = git://github.com/msanders/cocoa.vim.git
