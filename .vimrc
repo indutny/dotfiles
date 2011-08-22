@@ -163,6 +163,7 @@ map <leader>o :BufExplorer<cr>
 vmap <leader>y :!xclip -f -sel clip<CR>
 map <leader>p :-1r !xclip -o -sel clip<CR>
 
-" TagBar
+" TagBar and AutoTag
+"
 let g:tagbar_usearrows = 1
 nnoremap <leader>l :TagbarToggle<CR>
