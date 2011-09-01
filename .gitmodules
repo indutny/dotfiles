@@ -40,3 +40,6 @@
 [submodule ".vim/bundle/autotag.vim"]
 	path = .vim/bundle/autotag.vim
 	url = git://github.com/marcus/autotag.vim.git
+[submodule ".vim/bundle/vim-colors-solarized"]
+	path = .vim/bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git

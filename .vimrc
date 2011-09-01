@@ -97,17 +97,14 @@ set statusline=\ %F%m%r%h\ %w\ %{fugitive#statusline()}\ \Line:\ %l/%L:%c
 " Set 7 lines to the curors - when moving vertical..
 set so=7
 
-if has('gui_running')
-  " solarized colorscheme
-  set background=dark
-  let g:solarized_termcolors=256
-  colorscheme solarized
-  " Ctrl + C, Ctrl + V
-  map <C-v> "+gP
-  map <C-c> "+y
-  map <C-x> "+x
-else
-endif
+" solarized colorscheme
+set background=dark
+let g:solarized_termcolors=256
+colorscheme solarized
+" Ctrl + C, Ctrl + V
+map <C-v> "+gP
+map <C-c> "+y
+map <C-x> "+x
 
 " NERD Tree
 map <leader>n :NERDTreeToggle<cr>
