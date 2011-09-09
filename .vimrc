@@ -98,9 +98,11 @@ set statusline=\ %F%m%r%h\ %w\ %{fugitive#statusline()}\ \Line:\ %l/%L:%c
 set so=7
 
 " solarized colorscheme
+" let g:solarized_termtrans=1
 set background=dark
-let g:solarized_termcolors=256
 colorscheme solarized
+
+
 " Ctrl + C, Ctrl + V
 map <C-v> "+gP
 map <C-c> "+y
