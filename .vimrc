@@ -41,7 +41,7 @@ set list listchars=tab:>·,trail:·
 set wildmenu
 
 " enable mouse
-set mouse=a
+" set mouse=a
 
 " increase history
 set history=700

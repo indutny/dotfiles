@@ -21,16 +21,20 @@
   untracked = cyan
 [core]
   whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
-[rerere]
-  enabled = true
+[diff]
+  # Github style word diffs
+  wordRegex = [^[:space:]]
 [alias]
+  aa = add .
   st = status
   ci = commit
   br = branch
   co = checkout
   df = diff
-  lg = log --stat
+  lg = log --oneline --decorate
   lc = log -p -n1
+  lol = log --pretty=oneline --abbrev-commit --graph --decorate
+  ff = merge --ff-only
 [url "git@github.com:"]
   insteadOf = "gh:"
   pushInsteadOf = "github:"
