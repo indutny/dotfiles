@@ -15,6 +15,7 @@ set shiftwidth=2
 set smarttab
 set et
 
+set ttyfast
 set nocompatible
 set autoindent
 set lbr
@@ -39,12 +40,28 @@ set smartcase
 set list listchars=tab:>·,trail:·
 
 set wildmenu
+set wildmode=list:longest
+
+set wildignore+=.hg,.git,.svn                    " Version control
+set wildignore+=*.aux,*.out,*.toc                " LaTeX intermediate files
+set wildignore+=*.jpg,*.bmp,*.gif,*.png,*.jpeg   " binary images
+set wildignore+=*.o,*.obj,*.exe,*.dll,*.manifest " compiled object files
+set wildignore+=*.spl                            " compiled spelling word lists
+set wildignore+=*.sw?                            " Vim swap files
+set wildignore+=*.DS_Store                       " OSX bullshit
+
+set wildignore+=*.luac                           " Lua byte code
+set wildignore+=*.node                           " Node.js native modules
+set wildignore+=*.pyc                            " Python byte code
+
+" Highlight VCS conflict markers
+match ErrorMsg '^\(<\|=\|>\)\{7\}\([^=].\+\)\?$'
 
 " enable mouse
-" set mouse=a
+set mouse=a
 
 " increase history
-set history=700
+set history=1000
 
 " UI tweaks
 set ruler
@@ -87,6 +104,7 @@ autocmd! bufwritepost vimrc source ~/.vim_runtime/vimrc
 " Specify undodir
 set undodir=~/.vim_runtime/undodir
 set undofile
+set undoreload=10000
 
 " Always hide the statusline
 set laststatus=2
@@ -98,8 +116,8 @@ set statusline=\ %F%m%r%h\ %w\ %{fugitive#statusline()}\ \Line:\ %l/%L:%c
 set so=7
 
 " solarized colorscheme
-" let g:solarized_termtrans=1
-set background=dark
+let g:solarized_termtrans=1
+set background=light
 colorscheme solarized
 
 
@@ -110,6 +128,10 @@ map <C-x> "+x
 
 " NERD Tree
 map <leader>n :NERDTreeToggle<cr>
+let NERDTreeIgnore=['.vim$', '\~$', '.*\.pyc$', 'pip-log\.txt$', 'whoosh_index', 'xapian_index', '.*.pid', 'monitor.py', '.*-fixtures-.*.json', '.*\.o$', 'db.db']
+
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Spell checking
@@ -166,3 +188,7 @@ map <leader>p :-1r !xclip -o -sel clip<CR>
 "
 let g:tagbar_usearrows = 1
 nnoremap <leader>l :TagbarToggle<CR>
+
+
+" Less chording
+nnoremap ; :
