@@ -174,6 +174,5 @@ map <leader>p :-1r !xclip -o -sel clip<CR>
 let g:tagbar_usearrows = 1
 nnoremap <leader>l :TagbarToggle<CR>
 
-
 " Less chording
 nnoremap ; :
