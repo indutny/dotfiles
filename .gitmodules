@@ -43,3 +43,6 @@
 [submodule ".vim/bundle/supertab"]
 	path = .vim/bundle/supertab
 	url = git://github.com/ervandew/supertab.git
+[submodule ".vim/bundle/vim-pasta"]
+	path = .vim/bundle/vim-pasta
+	url = git://github.com/sickill/vim-pasta.git
