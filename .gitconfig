@@ -26,11 +26,11 @@
   wordRegex = [^[:space:]]
 [alias]
   aa = add .
-  st = status
+  st = status -sb
   ci = commit
   br = branch
   co = checkout
-  df = diff
+  df = diff --word-diff --color-words
   lg = log --oneline --decorate
   lc = log -p -n1
   lol = log --pretty=oneline --abbrev-commit --graph --decorate
