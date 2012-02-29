@@ -49,9 +49,9 @@ set wildignore+=*.o,*.obj,*.exe,*.dll,*.manifest " compiled object files
 set wildignore+=*.spl                            " compiled spelling word lists
 set wildignore+=*.sw?                            " Vim swap files
 set wildignore+=*.DS_Store                       " OSX bullshit
+set wildignore+=*.dSYM                           " OSX debug info directories
 
 set wildignore+=*.luac                           " Lua byte code
-set wildignore+=*.node                           " Node.js native modules
 set wildignore+=*.pyc                            " Python byte code
 
 " Highlight VCS conflict markers

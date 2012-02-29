@@ -10,10 +10,10 @@
   local = yellow
   remote = green
 [color "diff"]
-  meta = yellow bold
-  frag = magenta bold
-  old = red bold
-  new = green bold
+  meta = yellow
+  frag = magenta
+  old = red
+  new = green
   whitespace = red reverse
 [color "status"]
   added = yellow
@@ -30,7 +30,8 @@
   ci = commit
   br = branch
   co = checkout
-  df = diff --word-diff --color-words
+  dw = diff --word-diff --color-words
+  df = diff
   lg = log --oneline --decorate
   lc = log -p -n1
   lol = log --pretty=oneline --abbrev-commit --graph --decorate
