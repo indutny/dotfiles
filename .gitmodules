@@ -43,3 +43,6 @@
 [submodule ".vim/bundle/vim-pasta"]
 	path = .vim/bundle/vim-pasta
 	url = git://github.com/sickill/vim-pasta.git
+[submodule ".vim/bundle/vim-markdown"]
+	path = .vim/bundle/vim-markdown
+	url = git://github.com/plasticboy/vim-markdown.git

@@ -36,6 +36,7 @@
   lc = log -p -n1
   lol = log --pretty=oneline --abbrev-commit --graph --decorate
   ff = merge --ff-only
+  poo = push
 [url "git@github.com:"]
   insteadOf = "gh:"
   pushInsteadOf = "github:"
