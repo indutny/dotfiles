@@ -9,6 +9,17 @@ syntax on
 " JSON files are javascript
 autocmd BufNewFile,BufRead *.json set ft=javascript
 
+" Highlightning
+hi clear CursorLine
+augroup CLClear
+    autocmd! ColorScheme * hi clear CursorLine
+augroup END
+hi CursorLineNR cterm=bold
+augroup CLNRSet
+    autocmd! ColorScheme * hi CursorLineNR cterm=bold
+augroup END
+set cursorline
+
 "Y U NO TABS OR SPACES
 set tabstop=2
 set shiftwidth=2
