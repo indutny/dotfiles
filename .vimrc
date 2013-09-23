@@ -8,6 +8,7 @@ syntax on
 
 " JSON files are javascript
 autocmd BufNewFile,BufRead *.json set ft=javascript
+autocmd BufNewFile,BufRead *.m set ft=objc
 
 " Highlightning
 hi clear CursorLine
