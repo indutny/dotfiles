@@ -1,6 +1,6 @@
 [user]
   name = Fedor Indutny
-  email = fedor.indutny@gmail.com
+  email = fedor@indutny.com
 [core]
   editor = vim
 [color]
@@ -27,7 +27,7 @@
 [alias]
   aa = add .
   st = status -sb
-  ci = commit
+  ci = commit -S
   br = branch
   co = checkout
   dw = diff --word-diff --color-words
@@ -37,6 +37,8 @@
   lol = log --pretty=oneline --abbrev-commit --graph --decorate
   ff = merge --ff-only
   poo = push
+  ll = log --show-signature
+  sh = show --show-signature
 [url "git@github.com:"]
   insteadOf = "gh:"
   pushInsteadOf = "github:"
@@ -53,3 +55,5 @@
   default = tracking
 [help]
   autocorrect = 1
+[commit]
+  gpgsign = 1
