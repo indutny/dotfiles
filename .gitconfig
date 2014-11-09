@@ -55,5 +55,3 @@
   default = tracking
 [help]
   autocorrect = 1
-[commit]
-  gpgsign = 1
