@@ -1,6 +1,7 @@
 [user]
   name = Fedor Indutny
   email = fedor@indutny.com
+  signingkey = 19B7E890
 [core]
   editor = vim
 [color]
