@@ -161,10 +161,11 @@ map <leader>s? z=
 set colorcolumn=81
 :highlight ColorColumn ctermbg=lightblue guibg=lightblue
 
+" No Fold Enable
+setl nofen
 
 " Javascript section
 
-au FileType javascript setl fen
 au FileType javascript setl nocindent
 
 " Remove the Windows ^M - when the encodings gets messed up

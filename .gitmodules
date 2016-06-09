@@ -52,3 +52,6 @@
 [submodule ".vim/bundle/vim-bracketed-paste"]
 	path = .vim/bundle/vim-bracketed-paste
 	url = https://github.com/ConradIrwin/vim-bracketed-paste
+[submodule ".vim/bundle/rust.vim"]
+	path = .vim/bundle/rust.vim
+	url = git@github.com:rust-lang/rust.vim.git
