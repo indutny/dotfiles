@@ -168,6 +168,13 @@ setl nofen
 
 au FileType javascript setl nocindent
 
+" Python section
+au FileType python set tabstop=2
+au FileType python set shiftwidth=2
+
+" Markdown
+au FileType markdown setl nofen
+
 " Remove the Windows ^M - when the encodings gets messed up
 noremap <Leader>m mmHmt:%s/<C-V><cr>//ge<cr>'tzt'm
 

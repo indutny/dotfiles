@@ -1,7 +1,17 @@
-export PS1='\w $ '
+export PROMPT_COMMAND=__prompt_command
 
-export CC="ccache /Users/findutnyy/Code/llvm_cmake_build/bin/clang"
-export CXX="ccache /Users/findutnyy/Code/llvm_cmake_build/bin/clang++"
+__prompt_command() {
+  local STATUS="$?"
+
+  if [ $STATUS != 0 ]; then
+    PS1="\w \[\e[0;31m\]$\[\e[0m\] "
+  else
+    PS1="\w $ "
+  fi
+}
+
+export CC="ccache clang"
+export CXX="ccache clang++"
 
 # c and various
 export PATH="$PATH:/Users/findutnyy/.bin"
@@ -18,9 +28,12 @@ export PATH="/usr/local/bin:$PATH"
 # io
 #export PATH="$HOME/.iojs/2.3.4/bin:$PATH"
 #export PATH="$HOME/.node/0.10.39/bin:$PATH"
-#export PATH="$HOME/.node/4.2.1/bin:$PATH"
+#export PATH="$HOME/.node/0.12.14/bin:$PATH"
+#export PATH="$HOME/.node/4.7.0/bin:$PATH"
 #export PATH="$HOME/.node/5.7.0/bin:$PATH"
-export PATH="$HOME/.node/6.0.0/bin:$PATH"
+#export PATH="$HOME/.node/6.8.0/bin:$PATH"
+export PATH="$HOME/.node/7.7.1/bin:$PATH"
+#export PATH="$HOME/.node/8.0.0-pre/bin:$PATH"
 
 export NODE_REPL_HISTORY_FILE="$HOME/.iojs/.repl_history"
 
@@ -42,3 +55,7 @@ export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
 
 # ASAN
 SANITIZERS="-fsanitize=undefined -fsanitize=address -fsanitize=integer -fsanitize=alignment -fsanitize=bounds -fsanitize=enum -fsanitize=object-size"
+
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
