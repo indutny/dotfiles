@@ -1,4 +1,6 @@
 export PROMPT_COMMAND=__prompt_command
+HISTSIZE=1000000
+HISTFILESIZE=20000000
 
 __prompt_command() {
   local STATUS="$?"
@@ -10,8 +12,8 @@ __prompt_command() {
   fi
 }
 
-export CC="ccache clang"
-export CXX="ccache clang++"
+# ccache
+export PATH="$PATH:/usr/local/opt/ccache/libexec"
 
 # c and various
 export PATH="$PATH:/Users/findutnyy/.bin"
@@ -22,6 +24,9 @@ export PATH="$PATH:/Users/findutnyy/Code/google/depot_tools"
 # brew
 export PATH="/usr/local/bin:$PATH"
 
+# arcanist
+export PATH="$PATH:/Users/findutnyy/Code/phacility/arcanist/bin/"
+
 # gpg-2.1.0
 # export PATH="/Users/findutnyy/.gnupg/2.1.0/bin/:$PATH"
 
@@ -29,11 +34,13 @@ export PATH="/usr/local/bin:$PATH"
 #export PATH="$HOME/.iojs/2.3.4/bin:$PATH"
 #export PATH="$HOME/.node/0.10.39/bin:$PATH"
 #export PATH="$HOME/.node/0.12.14/bin:$PATH"
-#export PATH="$HOME/.node/4.7.0/bin:$PATH"
+#export PATH="$HOME/.node/4.8.4/bin:$PATH"
 #export PATH="$HOME/.node/5.7.0/bin:$PATH"
 #export PATH="$HOME/.node/6.8.0/bin:$PATH"
-export PATH="$HOME/.node/7.7.1/bin:$PATH"
-#export PATH="$HOME/.node/8.0.0-pre/bin:$PATH"
+#export PATH="$HOME/.node/7.7.1/bin:$PATH"
+#export PATH="$HOME/.node/8.9.1/bin:$PATH"
+#export PATH="$HOME/.node/9.5.0/bin:$PATH"
+export PATH="$HOME/.node/9.6.1/bin:$PATH"
 
 export NODE_REPL_HISTORY_FILE="$HOME/.iojs/.repl_history"
 
