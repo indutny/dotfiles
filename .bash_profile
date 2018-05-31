@@ -40,7 +40,8 @@ export PATH="$PATH:/Users/findutnyy/Code/phacility/arcanist/bin/"
 #export PATH="$HOME/.node/7.7.1/bin:$PATH"
 #export PATH="$HOME/.node/8.9.1/bin:$PATH"
 #export PATH="$HOME/.node/9.5.0/bin:$PATH"
-export PATH="$HOME/.node/9.6.1/bin:$PATH"
+#export PATH="$HOME/.node/9.8.0/bin:$PATH"
+export PATH="$HOME/.node/10.0.0/bin:$PATH"
 
 export NODE_REPL_HISTORY_FILE="$HOME/.iojs/.repl_history"
 
@@ -66,3 +67,5 @@ SANITIZERS="-fsanitize=undefined -fsanitize=address -fsanitize=integer -fsanitiz
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
+
+export PATH="$HOME/.cargo/bin:$PATH"
