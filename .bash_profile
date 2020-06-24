@@ -13,7 +13,7 @@ __prompt_command() {
 }
 
 # ccache
-export PATH="$PATH:/usr/local/opt/ccache/libexec"
+export PATH="/usr/local/opt/ccache/libexec:$PATH"
 
 # c and various
 export PATH="$PATH:/Users/findutnyy/.bin"
@@ -41,7 +41,11 @@ export PATH="$PATH:/Users/findutnyy/Code/phacility/arcanist/bin/"
 #export PATH="$HOME/.node/8.9.1/bin:$PATH"
 #export PATH="$HOME/.node/9.5.0/bin:$PATH"
 #export PATH="$HOME/.node/9.8.0/bin:$PATH"
-export PATH="$HOME/.node/10.0.0/bin:$PATH"
+#export PATH="$HOME/.node/10.10.0/bin:$PATH"
+#export PATH="$HOME/.node/11.7.0/bin:$PATH"
+#export PATH="$HOME/.node/8.15.1/bin:$PATH"
+#export PATH="$HOME/.node/12.13.1/bin:$PATH"
+export PATH="$HOME/.node/13.9.0/bin:$PATH"
 
 export NODE_REPL_HISTORY_FILE="$HOME/.iojs/.repl_history"
 
@@ -69,3 +73,22 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 fi
 
 export PATH="$HOME/.cargo/bin:$PATH"
+
+export PATH="$HOME/.ghcup/bin:$PATH"
+
+# added by Miniconda3 4.5.12 installer
+# >>> conda init >>>
+# !! Contents within this block are managed by 'conda init' !!
+# __conda_setup="$(CONDA_REPORT_ERRORS=false '/Users/findutnyy/.miniconda3/bin/conda' shell.bash hook 2> /dev/null)"
+# if [ $? -eq 0 ]; then
+#     \eval "$__conda_setup"
+# else
+#     if [ -f "/Users/findutnyy/.miniconda3/etc/profile.d/conda.sh" ]; then
+#         . "/Users/findutnyy/.miniconda3/etc/profile.d/conda.sh"
+#       CONDA_CHANGEPS1=false conda activate base
+#     else
+#         \export PATH="/Users/findutnyy/.miniconda3/bin:$PATH"
+#     fi
+# fi
+# unset __conda_setup
+# <<< conda init <<<

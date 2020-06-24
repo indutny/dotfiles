@@ -175,6 +175,13 @@ au FileType python set shiftwidth=2
 " Markdown
 au FileType markdown setl nofen
 
+" Latex
+let g:tex_flavor='latex'
+" let g:vimtex_view_method='zathura'
+let g:vimtex_quickfix_mode=0
+au FileType latex set conceallevel=1
+let g:tex_conceal='abdmg'
+
 " Remove the Windows ^M - when the encodings gets messed up
 noremap <Leader>m mmHmt:%s/<C-V><cr>//ge<cr>'tzt'm
 
