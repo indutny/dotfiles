@@ -31,21 +31,8 @@ export PATH="$PATH:/Users/findutnyy/Code/phacility/arcanist/bin/"
 # export PATH="/Users/findutnyy/.gnupg/2.1.0/bin/:$PATH"
 
 # io
-#export PATH="$HOME/.iojs/2.3.4/bin:$PATH"
-#export PATH="$HOME/.node/0.10.39/bin:$PATH"
-#export PATH="$HOME/.node/0.12.14/bin:$PATH"
-#export PATH="$HOME/.node/4.8.4/bin:$PATH"
-#export PATH="$HOME/.node/5.7.0/bin:$PATH"
-#export PATH="$HOME/.node/6.8.0/bin:$PATH"
-#export PATH="$HOME/.node/7.7.1/bin:$PATH"
-#export PATH="$HOME/.node/8.9.1/bin:$PATH"
-#export PATH="$HOME/.node/9.5.0/bin:$PATH"
-#export PATH="$HOME/.node/9.8.0/bin:$PATH"
-#export PATH="$HOME/.node/10.10.0/bin:$PATH"
-#export PATH="$HOME/.node/11.7.0/bin:$PATH"
-#export PATH="$HOME/.node/8.15.1/bin:$PATH"
-#export PATH="$HOME/.node/12.13.1/bin:$PATH"
-export PATH="$HOME/.node/13.9.0/bin:$PATH"
+# export PATH="$HOME/.node/10.21.0/bin:$PATH"
+export PATH="$HOME/.node/14.6.0/bin:$PATH"
 
 export NODE_REPL_HISTORY_FILE="$HOME/.iojs/.repl_history"
 
@@ -92,3 +79,12 @@ export PATH="$HOME/.ghcup/bin:$PATH"
 # fi
 # unset __conda_setup
 # <<< conda init <<<
+
+##
+# Your previous /Users/findutnyy/.bash_profile file was backed up as /Users/findutnyy/.bash_profile.macports-saved_2020-06-24_at_10:29:06
+##
+
+# MacPorts Installer addition on 2020-06-24_at_10:29:06: adding an appropriate PATH variable for use with MacPorts.
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+# Finished adapting your PATH environment variable for use with MacPorts.
+

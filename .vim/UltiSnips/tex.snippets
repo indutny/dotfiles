@@ -1,0 +1,40 @@
+snippet beg "begin{} / end{}"
+\begin{$1}
+	$0
+\end{$1}
+endsnippet
+
+snippet eq "Aligned equations"
+\begin{align}
+	$0
+\end{align}
+endsnippet
+
+snippet mk "Math" w
+$${1}$`!p
+if t[2] and t[2][0] not in [',', '.', '?', '-', ' ']:
+    snip.rv = ' '
+else:
+    snip.rv = ''
+`$2
+endsnippet
+
+snippet lbl "Label"
+\label{eq:$0}
+endsnippet
+
+snippet ref "Reference"
+\eqref{eq:$0}
+endsnippet
+
+snippet par "Partial"
+\partial
+endsnippet
+
+snippet / "Fraction"
+\\frac{$1}{$2}$0
+endsnippet
+
+snippet ( "Parens"
+\left( $1 \right)
+endsnippet
