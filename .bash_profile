@@ -36,6 +36,12 @@ export PATH="$HOME/.node/14.6.0/bin:$PATH"
 
 export NODE_REPL_HISTORY_FILE="$HOME/.iojs/.repl_history"
 
+# go
+export PATH="$HOME/.go/bin:$PATH"
+
+# elixir
+export PATH="$HOME/.mix/escripts:$PATH"
+
 # pkg
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
 export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:/opt/X11/lib/pkgconfig"
