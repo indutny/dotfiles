@@ -168,6 +168,12 @@ setl nofen
 
 au FileType javascript setl nocindent
 
+" Go section
+
+au FileType go setl invlist
+au FileType go setl noet
+au FileType go setl nosmarttab
+
 " Python section
 au FileType python set tabstop=2
 au FileType python set shiftwidth=2
