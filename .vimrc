@@ -5,7 +5,6 @@ call plug#begin()
 Plug 'ConradIrwin/vim-bracketed-paste'
 Plug 'MaxMEllon/vim-jsx-pretty'
 Plug 'SirVer/ultisnips'
-Plug 'airblade/vim-gitgutter'
 Plug 'altercation/vim-colors-solarized'
 Plug 'ervandew/supertab'
 Plug 'majutsushi/tagbar'
