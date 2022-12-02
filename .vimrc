@@ -12,6 +12,7 @@ Plug 'markabe/bufexplorer'
 Plug 'othree/html5.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'sickill/vim-pasta'
+Plug 'tpope/vim-fugitive'
 Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
 Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
 Plug 'rust-lang/rust.vim', { 'for': 'rust' }
