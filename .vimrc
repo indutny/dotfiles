@@ -3,6 +3,7 @@
 call plug#begin()
 
 Plug 'ConradIrwin/vim-bracketed-paste'
+Plug 'MaxMEllon/vim-jsx-pretty'
 Plug 'SirVer/ultisnips'
 Plug 'airblade/vim-gitgutter'
 Plug 'altercation/vim-colors-solarized'
@@ -10,7 +11,7 @@ Plug 'ervandew/supertab'
 Plug 'majutsushi/tagbar'
 Plug 'markabe/bufexplorer'
 Plug 'othree/html5.vim'
-Plug 'scrooloose/nerdtree'
+Plug 'preservim/nerdtree'
 Plug 'sickill/vim-pasta'
 Plug 'tpope/vim-fugitive'
 Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
