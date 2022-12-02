@@ -1,81 +1,27 @@
 [submodule ".vim/bundle/mustache.vim"]
 	path = .vim/bundle/mustache.vim
 	url = https://github.com/juvenn/mustache.vim
-[submodule ".vim/bundle/nerdtree"]
-	path = .vim/bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree
 [submodule ".vim/bundle/vim-coffee-script"]
 	path = .vim/bundle/vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script
-[submodule ".vim/bundle/vim-javascript"]
-	path = .vim/bundle/vim-javascript
-	url = https://github.com/pangloss/vim-javascript
 [submodule ".vim/bundle/vim-rails"]
 	path = .vim/bundle/vim-rails
 	url = https://github.com/tpope/vim-rails
-[submodule ".vim/bundle/vim-fugitive"]
-	path = .vim/bundle/vim-fugitive
-	url = https://github.com/tpope/vim-fugitive
 [submodule ".vim/bundle/vim-jade"]
 	path = .vim/bundle/vim-jade
 	url = https://github.com/digitaltoad/vim-jade
 [submodule ".vim/bundle/vim-stylus"]
 	path = .vim/bundle/vim-stylus
 	url = https://github.com/vim-scripts/vim-stylus
-[submodule ".vim/bundle/bufexplorer"]
-	path = .vim/bundle/bufexplorer
-	url = https://github.com/markabe/bufexplorer
 [submodule ".vim/bundle/cocoa.vim"]
 	path = .vim/bundle/cocoa.vim
 	url = https://github.com/msanders/cocoa.vim
-[submodule ".vim/bundle/tagbar"]
-	path = .vim/bundle/tagbar
-	url = https://github.com/majutsushi/tagbar
 [submodule ".vim/bundle/autotag.vim"]
 	path = .vim/bundle/autotag.vim
 	url = https://github.com/marcus/autotag.vim
-[submodule ".vim/bundle/vim-colors-solarized"]
-	path = .vim/bundle/vim-colors-solarized
-	url = https://github.com/altercation/vim-colors-solarized
 [submodule ".vim/bundle/supertab"]
 	path = .vim/bundle/supertab
 	url = https://github.com/ervandew/supertab
-[submodule ".vim/bundle/vim-pasta"]
-	path = .vim/bundle/vim-pasta
-	url = https://github.com/sickill/vim-pasta
-[submodule ".vim/bundle/vim-markdown"]
-	path = .vim/bundle/vim-markdown
-	url = https://github.com/plasticboy/vim-markdown
 [submodule ".vim/bundle/gitgutter"]
 	path = .vim/bundle/gitgutter
 	url = https://github.com/airblade/vim-gitgutter
-[submodule ".vim/bundle/vim-bracketed-paste"]
-	path = .vim/bundle/vim-bracketed-paste
-	url = https://github.com/ConradIrwin/vim-bracketed-paste
-[submodule ".vim/bundle/rust.vim"]
-	path = .vim/bundle/rust.vim
-	url = https://github.com/rust-lang/rust.vim
-[submodule ".vim/bundle/typescript-vim"]
-	path = .vim/bundle/typescript-vim
-	url = https://github.com/leafgarland/typescript-vim
-[submodule ".vim/bundle/vim-vue"]
-	path = .vim/bundle/vim-vue
-	url = https://github.com/posva/vim-vue
-[submodule ".vim/bundle/vim-swift"]
-	path = .vim/bundle/vim-swift
-	url = https://github.com/toyamarinyon/vim-swift
-[submodule ".vim/bundle/vimtex"]
-	path = .vim/bundle/vimtex
-	url = https://github.com/lervag/vimtex
-[submodule ".vim/bundle/ultisnips"]
-	path = .vim/bundle/ultisnips
-	url = https://github.com/SirVer/ultisnips
-[submodule ".vim/bundle/haskell-vim"]
-	path = .vim/bundle/haskell-vim
-	url = https://github.com/neovimhaskell/haskell-vim
-[submodule ".vim/bundle/vim-elixir"]
-	path = .vim/bundle/vim-elixir
-	url = https://github.com/elixir-editors/vim-elixir
-[submodule ".vim/bundle/vim-go"]
-	path = .vim/bundle/vim-go
-	url = https://github.com/fatih/vim-go

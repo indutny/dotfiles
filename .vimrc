@@ -1,3 +1,39 @@
+" plug
+
+call plug#begin()
+
+Plug 'juvenn/mustache.vim'
+Plug 'scrooloose/nerdtree'
+Plug 'kchmck/vim-coffee-script'
+Plug 'pangloss/vim-javascript'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-fugitive'
+Plug 'digitaltoad/vim-jade'
+Plug 'vim-scripts/vim-stylus'
+Plug 'markabe/bufexplorer'
+Plug 'msanders/cocoa.vim'
+Plug 'majutsushi/tagbar'
+Plug 'marcus/autotag.vim'
+Plug 'altercation/vim-colors-solarized'
+Plug 'ervandew/supertab'
+Plug 'sickill/vim-pasta'
+Plug 'plasticboy/vim-markdown'
+Plug 'airblade/vim-gitgutter'
+Plug 'ConradIrwin/vim-bracketed-paste'
+Plug 'rust-lang/rust.vim'
+Plug 'leafgarland/typescript-vim'
+Plug 'posva/vim-vue'
+Plug 'toyamarinyon/vim-swift'
+Plug 'lervag/vimtex'
+Plug 'SirVer/ultisnips'
+Plug 'neovimhaskell/haskell-vim'
+Plug 'elixir-editors/vim-elixir'
+Plug 'fatih/vim-go'
+Plug 'othree/html5.vim'
+Plug 'evanleck/vim-svelte', {'branch': 'main'}
+
+call plug#end()
+
 " load pathogen
 call pathogen#runtime_append_all_bundles()
 
@@ -140,7 +176,7 @@ map <C-x> "+x
 
 " NERD Tree
 map <leader>n :NERDTreeToggle<cr>
-let NERDTreeIgnore=['.vim$', '\~$', '.*\.pyc$', 'pip-log\.txt$', 'whoosh_index', 'xapian_index', '.*.pid', 'monitor.py', '.*-fixtures-.*.json', '.*\.o$', 'db.db']
+let NERDTreeIgnore=['\~$', '.*\.pyc$', 'pip-log\.txt$', 'whoosh_index', 'xapian_index', '.*.pid', 'monitor.py', '.*-fixtures-.*.json', '.*\.o$', 'db.db']
 
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1

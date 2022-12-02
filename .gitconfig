@@ -1,6 +1,6 @@
 [user]
   name = Fedor Indutny
-  email = fedor@indutny.com
+  email = 238531+indutny@users.noreply.github.com
   signingkey = 19B7E890
 [core]
   editor = vim
@@ -58,15 +58,15 @@
 [help]
   autocorrect = 1
 [http]
-	cookiefile = /Users/findutnyy/.gitcookies
+  cookiefile = /Users/findutnyy/.gitcookies
 [credential]
-	helper = osxkeychain
+  helper = osxkeychain
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true
 [pull]
-	ff = only
+  ff = only
 [init]
-	defaultBranch = main
+  defaultBranch = main
