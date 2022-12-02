@@ -2,6 +2,7 @@
 
 call plug#begin()
 
+Plug 'tpope/vim-pathogen'
 Plug 'juvenn/mustache.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'kchmck/vim-coffee-script'
@@ -35,7 +36,7 @@ Plug 'evanleck/vim-svelte', {'branch': 'main'}
 call plug#end()
 
 " load pathogen
-call pathogen#runtime_append_all_bundles()
+execute pathogen#infect()
 
 " syntax
 filetype off
