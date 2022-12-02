@@ -2,34 +2,26 @@
 
 call plug#begin()
 
-Plug 'juvenn/mustache.vim'
-Plug 'scrooloose/nerdtree'
-Plug 'kchmck/vim-coffee-script'
-Plug 'pangloss/vim-javascript'
-Plug 'tpope/vim-rails'
-Plug 'tpope/vim-fugitive'
-Plug 'digitaltoad/vim-jade'
-Plug 'vim-scripts/vim-stylus'
-Plug 'markabe/bufexplorer'
-Plug 'msanders/cocoa.vim'
-Plug 'majutsushi/tagbar'
-Plug 'marcus/autotag.vim'
+Plug 'ConradIrwin/vim-bracketed-paste'
+Plug 'SirVer/ultisnips'
+Plug 'airblade/vim-gitgutter'
 Plug 'altercation/vim-colors-solarized'
 Plug 'ervandew/supertab'
-Plug 'sickill/vim-pasta'
-Plug 'plasticboy/vim-markdown'
-Plug 'airblade/vim-gitgutter'
-Plug 'ConradIrwin/vim-bracketed-paste'
-Plug 'rust-lang/rust.vim'
-Plug 'leafgarland/typescript-vim'
-Plug 'posva/vim-vue'
-Plug 'toyamarinyon/vim-swift'
-Plug 'lervag/vimtex'
-Plug 'SirVer/ultisnips'
-Plug 'neovimhaskell/haskell-vim'
-Plug 'elixir-editors/vim-elixir'
-Plug 'fatih/vim-go'
+Plug 'majutsushi/tagbar'
+Plug 'markabe/bufexplorer'
 Plug 'othree/html5.vim'
+Plug 'scrooloose/nerdtree'
+Plug 'sickill/vim-pasta'
+Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
+Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
+Plug 'rust-lang/rust.vim', { 'for': 'rust' }
+Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
+Plug 'posva/vim-vue', { 'for': 'vue' }
+Plug 'toyamarinyon/vim-swift', { 'for': 'swift' }
+Plug 'lervag/vimtex', { 'for': 'tex' }
+Plug 'neovimhaskell/haskell-vim', { 'for': 'haskell' }
+Plug 'elixir-editors/vim-elixir', { 'for': 'elixir' }
+Plug 'fatih/vim-go', { 'for': 'go' }
 Plug 'evanleck/vim-svelte', {'branch': 'main'}
 
 call plug#end()
