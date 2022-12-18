@@ -196,9 +196,9 @@ au FileType javascript setl nocindent
 
 " Go section
 
-au FileType go setl invlist
-au FileType go setl noet
-au FileType go setl nosmarttab
+au FileType go set nolist
+au FileType go set noet
+au FileType go set nosmarttab
 
 " Python section
 au FileType python set tabstop=2
