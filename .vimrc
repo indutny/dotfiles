@@ -196,13 +196,13 @@ au FileType javascript setl nocindent
 
 " Go section
 
-au FileType go set nolist
-au FileType go set noet
-au FileType go set nosmarttab
+au FileType go setl nolist
+au FileType go setl noet
+au FileType go setl nosmarttab
 
 " Python section
-au FileType python set tabstop=2
-au FileType python set shiftwidth=2
+au FileType python setl tabstop=2
+au FileType python setl shiftwidth=2
 
 " Markdown
 au FileType markdown setl nofen
