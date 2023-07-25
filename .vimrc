@@ -24,6 +24,8 @@ Plug 'neovimhaskell/haskell-vim', { 'for': 'haskell' }
 Plug 'elixir-editors/vim-elixir', { 'for': 'elixir' }
 Plug 'fatih/vim-go', { 'for': 'go' }
 Plug 'evanleck/vim-svelte', {'branch': 'main'}
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 call plug#end()
 

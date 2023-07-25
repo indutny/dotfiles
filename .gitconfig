@@ -58,7 +58,7 @@
 [help]
   autocorrect = 1
 [http]
-  cookiefile = /Users/findutnyy/.gitcookies
+	cookiefile = /Users/indutny/.gitcookies
 [credential]
   helper = osxkeychain
 [filter "lfs"]
