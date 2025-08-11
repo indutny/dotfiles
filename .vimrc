@@ -4,7 +4,6 @@ call plug#begin()
 
 Plug 'ConradIrwin/vim-bracketed-paste'
 Plug 'MaxMEllon/vim-jsx-pretty'
-Plug 'SirVer/ultisnips'
 Plug 'altercation/vim-colors-solarized'
 Plug 'ervandew/supertab'
 Plug 'majutsushi/tagbar'
@@ -223,9 +222,6 @@ noremap <Leader>m mmHmt:%s/<C-V><cr>//ge<cr>'tzt'm
 let g:bufExplorerDefaultHelp=0
 let g:bufExplorerShowRelativePath=1
 map <leader>o :BufExplorer<cr>
-
-" Snippets
-let g:UltiSnipsEditSplit='vertical'
 
 " TagBar and AutoTag
 "
